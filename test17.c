@@ -15,5 +15,6 @@ int main () {
      else if (c>a && c>b)
      printf("%d est le plus grand",c);
      return 0;
+     
     
 }
