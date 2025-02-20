@@ -17,7 +17,7 @@ int main () {
  float ra;
  printf("enter the radius of the circle ");
  scanf("%f",&ra);
- printf("the surface of the circle %f",cirs(ra));
+ printf("the surface of the circle %f\n",cirs(ra));
  printf("the peremeter of the circle %f",cirp(ra));
  return 0;
 }
