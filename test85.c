@@ -15,4 +15,4 @@ for (i=2;i<=n;i++)
     ui=un;
 }
 return 0;
-}
+} 
