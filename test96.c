@@ -9,12 +9,12 @@ typedef struct student {
     char fname [40];
 }student;
 int main () {
-    int n ; int *p=&n;
-    float o,*i=&o; 
-    char e,*cc=&e; int
-    t[10],*t1[10]=&t[10]; 
-    char name[30],*r=&name;
-    student etd,*eps=&etd;
+   // int n ; int *p=&n;
+ //   float o,*i=&o; 
+  ////  char e,*cc=&e; int
+   // t[10],*t1[10]=&t[10]; 
+  //  student etd,*eps=&etd;
+    printf("hellow world ");
 return 0; 
 
 }
