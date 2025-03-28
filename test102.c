@@ -1,4 +1,5 @@
 #include<stdio.h>
+// elemination un entier dun tableau 
 int main () {
     int t[20],n,x,*p1,*p2;
     p1=t;
