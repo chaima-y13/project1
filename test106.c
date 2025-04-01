@@ -1,5 +1,5 @@
 #include<stdio.h>
-// deux T(a et b) avec dimention n et m qui ajouter les eslslement de b a la fin de a avec ds pointeurs pa et pb , aficher la resultat a 
+// deux T(a et b) avec dimention n et m qui ajouter les elelements de b a la fin de a avec ds pointeurs pa et pb , aficher la resultat a 
 int main ( ){
    int a[20] ,b[20],n,m,*pa,*pb;
    pa=a,pb=b;

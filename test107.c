@@ -9,7 +9,7 @@ int main () {
         scanf("%d",&t[i]);
     }
     int e=0;
-    for(i=0;i<n-1;i++)
+    for(i=0;i<n;i++)
     {
         if(t[i]>t[i+1])
         e=1;
