@@ -1,33 +1,33 @@
 #include<stdio.h>
-// trier un tableau sans les pointeurs 
-int main ( ){
-int n,i,j;
-int temp;
-printf("veuillez saisir la taille du tabaleau ");
-scanf("%d",&n);
-int t[100];
-for (i = 0; i < n; i++)
+#include<stdlib.h>
+// les listes chainie 
+struct noeud {
+    int val ;
+    struct noeud *next;
+};
+struct noeud * head ;
+void insert(int v)
 {
-    printf("t[%d]=",i);
-    scanf("%d",&t[i]);
+ struct noeud *temp;
+ temp=malloc(sizeof(temp));
+ temp->val=v;
+ temp->next=head;
+ head=temp;
 }
-for(i=0;i<n-i-1;i++) {
-for(j=0;j<n-i-1;j++)
-
-{
-    if(t[j]<t[j+1]) 
-    { 
-        temp=t[j];
-        t[j]=t[j+1];
-        t[j+1]=temp;
+ void list ()
+ {
+    struct noeud *temp;
+    temp=head;
+    while(temp!=NULL)
+    {
+        printf("%d\t",temp->val);
+        temp=temp->next;
     }
-}
-}
-printf("\n-----------------------------\n");
-for (i = 0; i < n; i++)
+ }
 
-{
-    printf("t[%d]=%d\n",i,t[i]);
-}
+int main () {
+    insert(3);
+    insert(4);
+    list();
 return 0;
 }
