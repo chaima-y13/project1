@@ -6,7 +6,6 @@ struct noeud {
     struct noeud *next;
 };
 struct noeud *head ;
-struct noeud * head ;
 void insert(int v)
 {
  struct noeud *temp;
