@@ -1,5 +1,6 @@
 #include<stdio.h>
 // l'echange des element d un tableau avec les pointeurs 
+// cette methde (iviter le maximum) 
 int main () {
     int t[20],*p1,*p2,n,temp;
     p1=t,

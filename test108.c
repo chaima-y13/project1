@@ -1,5 +1,6 @@
 // trier un tableau avec les pointeir et aficher la resultat
 #include<stdio.h>
+// cette methde (iviter le maximum) 
 int main () {
  int t[10],n,*p1,*p2,temp;
  printf("veuillez saisir la taille du tableau ");

@@ -1,5 +1,6 @@
 #include<stdio.h>
 // elemination un entier dun tableau 
+// cette methde (iviter le maximum) 
 int main () {
     int t[20],n,x,*p1,*p2;
     p1=t;

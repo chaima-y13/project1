@@ -1,6 +1,7 @@
 #include<stdio.h>
 // deux T(a et b) avec dimention n et m qui ajouter les elelements de b a la fin de a avec ds pointeurs pa et pb , aficher la resultat a 
 int main ( ){
+  // cette methde (iviter le maximum) 
    int a[20] ,b[20],n,m,*pa,*pb;
    pa=a,pb=b;
    printf("veuillez saisir la taille du tableau A\t");
