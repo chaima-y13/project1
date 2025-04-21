@@ -1,14 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 // constract a list from n data entered by a user 
-struct noeud {
+typedef struct noeud {
     int val;
     struct noeud *next;
-};
-struct noeud *head ;
+} node;
+node *head ;
 void insert(int v)
 {
- struct noeud *temp;
+ node *temp;
  temp=malloc(sizeof(temp));
  temp->val=v;
  temp->next=head;
@@ -16,7 +16,7 @@ void insert(int v)
 }
 void list ()
  {
-    struct noeud *temp;
+    node *temp;
     temp=head;
     while(temp!=NULL)
     {
